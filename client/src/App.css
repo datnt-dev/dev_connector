@@ -1,3 +1,4 @@
+
 /* Global Styles */
 :root {
   --primary-color: #0cb3ff;
@@ -33,6 +34,9 @@ ul {
 img {
   width: 100%;
 }
+.text-left{
+  text-align: left;
+}
 
 /* Utilities */
 .container {
@@ -40,8 +44,7 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+
 }
 
 /* Text Styles*/
@@ -487,7 +490,9 @@ button {
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
-
+.ant-input-affix-wrapper .ant-input{
+  font-size: 14px;
+}
 /* Mobile Styles */
 @media (max-width: 700px) {
   .container {
