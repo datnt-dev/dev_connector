@@ -12,9 +12,9 @@ const Landing = ({ isAuthenticated }) => {
     <section className="landing">
       <div className="dark-overlay">
         <div className="landing-inner">
-          <h1 className="x-large">DevApps</h1>
+          <h1 className="x-large">Blogging</h1>
           <p className="lead">
-            This is an app to login to my project. Welcome
+          Nhân tài chính là nguồn lợi nhuận cao nhất có được, một công ty có thể "kinh doanh" tốt nhân tài thì công ty đó trước sau gì cũng thắng lợi.
           </p>
           <div className="buttons">
             <Link to="/register" className="btn btn-primary">Đăng Ký</Link>

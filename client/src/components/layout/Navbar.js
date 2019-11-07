@@ -9,7 +9,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <ul>
       <li>
         <Link to='/profiles'>
-          Friends
+          Blogers
         </Link>
       </li>
       <li>
@@ -37,7 +37,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <ul>
       <li>
         <Link to='/profiles'>
-          Friends
+          Blogers
         </Link>
       </li>
       <li><Link to='/register'>Đăng Ký</Link></li>
